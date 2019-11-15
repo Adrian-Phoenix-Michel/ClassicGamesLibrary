@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.LibraryController">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="800.0" stroke="BLACK" strokeType="INSIDE" width="1280.0">
+      <fill>
+         <RadialGradient centerX="0.5" centerY="0.5238095238095238" focusAngle="-171.96" radius="0.8372093023255814">
+            <stops>
+               <Stop color="WHITE" />
+               <Stop color="#ff00f25e" offset="1.0" />
+            </stops>
+         </RadialGradient>
+      </fill>
+   </Rectangle>
+   <Pane prefHeight="800.0" prefWidth="1280.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="684.0" layoutX="413.0" layoutY="116.0" stroke="#323e86" strokeType="INSIDE" width="415.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.7285714285714285" radius="0.20930232558139533">
+               <stops>
+                  <Stop color="#434f94" />
+                  <Stop color="#323e86" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="64.0" layoutX="373.0" layoutY="116.0" stroke="#323e86" strokeType="INSIDE" width="494.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="1.0" radius="0.5">
+               <stops>
+                  <Stop color="#434f94" />
+                  <Stop color="#323e86" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="83.0" layoutX="413.0" layoutY="644.0" stroke="#323e86" strokeType="INSIDE" width="415.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.1333333333333333" radius="0.5">
+               <stops>
+                  <Stop color="#434f94" />
+                  <Stop color="#323e86" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="46.0" layoutX="413.0" layoutY="180.0" stroke="#323e86" strokeType="INSIDE" width="415.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.319047619047619" radius="0.5">
+               <stops>
+                  <Stop color="#434f94" />
+                  <Stop color="#323e86" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Polyline fill="#323e86" layoutX="398.0" layoutY="220.0" points="-24.5, -40.5, 15.0, -40.0, 15.0, 6.0, -24.5, -40.5" stroke="#323e86" strokeType="INSIDE" />
+      <Polyline fill="#323e86" layoutX="878.0" layoutY="266.0" points="-50.0, -40.0, -50.0, -86.0, -10.5, -85.5, -50.0, -40.0" stroke="#323e86" strokeType="INSIDE" />
+      <Polyline fill="#323e86" layoutX="372.0" layoutY="639.0" points="41.0, 125.0, 25.0, 125.0, 1.5, 88.5, 41.0, 5.0" stroke="#323e86" strokeType="INSIDE" />
+      <Line endX="580.0" endY="-23.0" layoutX="287.0" layoutY="203.0" startX="86.0" startY="-23.0" stroke="#3e4da1" />
+      <Line endX="581.0" endY="-23.0" layoutX="286.0" layoutY="139.0" startX="87.0" startY="-23.0" stroke="#3e4da1" />
+      <Polyline fill="#323e86" layoutX="826.0" layoutY="639.0" points="41.0, 125.0, 25.0, 125.0, 1.5, 88.5, 41.0, 5.0" scaleX="-1.0" stroke="#323e86" strokeType="INSIDE" />
+      <Line endX="501.0" endY="-23.0" layoutX="327.0" layoutY="249.0" startX="86.0" startY="-23.0" stroke="#263161" />
+      <Line endX="501.0" endY="-23.0" layoutX="326.0" layoutY="667.0" startX="87.0" startY="-23.0" stroke="#263161" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="350.0" layoutX="446.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <ImageView fitHeight="350.0" fitWidth="360.0" layoutX="445.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/vmadmin/IdeaProjects/ClassicsLibrary/src/main/java/media/SnakePreviewQ.PNG" />
+         </image>
+      </ImageView>
+      <Circle layoutX="656.0" layoutY="702.0" radius="11.0" stroke="#76d015" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5666666666666667" centerY="0.419047619047619" focusAngle="-141.34" focusDistance="0.13953488372093026" radius="0.5813953488372092">
+               <stops>
+                  <Stop color="#90ff1e" />
+                  <Stop color="#90ff1e" offset="0.5402298850574713" />
+                  <Stop color="#d2ff9f" offset="0.7777777777777776" />
+                  <Stop color="#90ff1e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="685.0" layoutY="693.0" radius="11.0" stroke="#5b7c5b" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5666666666666667" centerY="0.419047619047619" focusAngle="-141.34" focusDistance="0.13953488372093026" radius="0.5813953488372092">
+               <stops>
+                  <Stop color="#7dab7d" />
+                  <Stop color="#7dab7d" offset="0.5402298850574713" />
+                  <Stop color="#aad3aa" offset="0.7777777777777776" />
+                  <Stop color="#7dab7d" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="714.0" layoutY="691.0" radius="11.0" stroke="#0404c2" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5666666666666667" centerY="0.419047619047619" focusAngle="-141.34" focusDistance="0.13953488372093026" radius="0.5813953488372092">
+               <stops>
+                  <Stop color="BLUE" />
+                  <Stop color="BLUE" offset="0.5402298850574713" />
+                  <Stop color="#6060fc" offset="0.7777777777777776" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="645.0" layoutY="675.0" radius="11.0" stroke="#8d2727" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5666666666666667" centerY="0.419047619047619" focusAngle="-141.34" focusDistance="0.13953488372093026" radius="0.5813953488372092">
+               <stops>
+                  <Stop color="BROWN" />
+                  <Stop color="BROWN" offset="0.5402298850574713" />
+                  <Stop color="#a16161" offset="0.7777777777777776" />
+                  <Stop color="BROWN" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="674.0" layoutY="668.0" radius="11.0" stroke="#005e00" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5666666666666667" centerY="0.419047619047619" focusAngle="-141.34" focusDistance="0.13953488372093026" radius="0.5813953488372092">
+               <stops>
+                  <Stop color="GREEN" />
+                  <Stop color="GREEN" offset="0.5402298850574713" />
+                  <Stop color="#5db95d" offset="0.7777777777777776" />
+                  <Stop color="GREEN" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="705.0" layoutY="665.0" radius="11.0" stroke="#186ebf" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5666666666666667" centerY="0.419047619047619" focusAngle="-141.34" focusDistance="0.13953488372093026" radius="0.5813953488372092">
+               <stops>
+                  <Stop color="DODGERBLUE" />
+                  <Stop color="DODGERBLUE" offset="0.5402298850574713" />
+                  <Stop color="#67b2f8" offset="0.7777777777777776" />
+                  <Stop color="DODGERBLUE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Text layoutX="449.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ClassicsLibrary">
+         <font>
+            <Font name="Arial Bold" size="46.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5277777777777778" centerY="0.819047619047619" radius="0.5">
+               <stops>
+                  <Stop color="#8853fc" />
+                  <Stop color="#3600f8" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Ellipse layoutX="549.0" layoutY="695.0" radiusX="15.0" radiusY="11.0" stroke="#787777" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.7166666666666667" centerY="0.20476190476190476" radius="0.5">
+               <stops>
+                  <Stop color="#bfbfbf" />
+                  <Stop color="#9e9e9e" offset="0.28735632183908044" />
+                  <Stop color="#808080" offset="0.9386973180076628" />
+                  <Stop color="#808080" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Ellipse>
+      <Ellipse fill="#00000077" layoutX="549.0" layoutY="695.0" radiusX="7.0" radiusY="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="38.0" layoutX="546.0" layoutY="658.0" stroke="#868585" strokeType="INSIDE" width="7.0">
+         <fill>
+            <RadialGradient centerX="0.8222222222222222" centerY="0.13809523809523805" radius="0.8139534883720931">
+               <stops>
+                  <Stop color="#bfbfbf" />
+                  <Stop color="#bfbfbf" offset="0.007662835249042145" />
+                  <Stop color="#9e9e9e" offset="0.4712643678160916" />
+                  <Stop color="#807e7e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Circle layoutX="550.0" layoutY="659.0" radius="11.0" stroke="#d70a0a" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.6222222222222222" centerY="0.3285714285714285" radius="0.7906976744186047">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="0.007662835249042145" />
+                  <Stop color="RED" offset="0.4329501915708809" />
+                  <Stop color="#d70a0a" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="38.0" layoutX="397.0" layoutY="727.0" stroke="#323e86" strokeType="INSIDE" width="445.0">
+         <fill>
+            <LinearGradient endY="0.4380952380952381" startY="0.42857142857142855">
+               <stops>
+                  <Stop color="#323e86" />
+                  <Stop color="#263172" offset="0.5172413793103446" />
+                  <Stop color="#323e86" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Line endX="606.0" endY="-23.0" layoutX="260.0" layoutY="751.0" startX="113.5" startY="-23.0" stroke="#3e4da1" />
+      <Line endX="524.0" endY="-23.0" layoutX="315.0" layoutY="787.0" startX="88.0" startY="-23.0" stroke="#263161" />
+   </Pane>
+</AnchorPane>

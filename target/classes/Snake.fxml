@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.SnakeController">
+   <children>
+      <GridPane alignment="center" disable="true" hgap="10" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" vgap="10">
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+            <RowConstraints maxHeight="488.0" minHeight="488.0" prefHeight="488.0" />
+         </rowConstraints>
+         <children>
+            <Pane prefHeight="488.0" prefWidth="1131.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <AnchorPane layoutX="-84.0" layoutY="-164.0" prefHeight="807.0" prefWidth="1287.0">
+                     <children>
+                        <Text fill="#3000ff" layoutX="483.0" layoutY="320.0" strokeType="INSIDE" strokeWidth="0.0" text="Snek" textAlignment="CENTER" wrappingWidth="272.13671875">
+                           <font>
+                              <Font name="Broadway" size="96.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#fc0f0f" layoutX="756.0" layoutY="320.0" strokeWidth="0.0" text="!" textAlignment="CENTER" wrappingWidth="46.13671875">
+                           <font>
+                              <Font name="Broadway" size="96.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="507.0" layoutY="610.0" strokeType="INSIDE" strokeWidth="0.0" text="Press &quot;space&quot; to start!" textAlignment="CENTER" wrappingWidth="272.13671875">
+                           <font>
+                              <Font name="Arial" size="21.0" />
+                           </font>
+                        </Text>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3000ff" height="200.0" layoutX="162.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="39.0" layoutX="162.0" layoutY="342.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3000ff" height="200.0" layoutX="1153.0" layoutY="468.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="39.0" layoutX="1153.0" layoutY="362.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3000ff" height="39.0" layoutX="59.0" layoutY="668.0" stroke="BLACK" strokeType="INSIDE" width="246.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="39.0" layoutX="427.0" layoutY="668.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
