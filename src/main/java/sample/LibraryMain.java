@@ -40,7 +40,7 @@ public class LibraryMain extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-/*
+
         primaryStage.setTitle("ClassicsGameLibrary");
 
         FXMLLoader fxmlLoader1 = new FXMLLoader(
@@ -70,7 +70,7 @@ public class LibraryMain extends Application {
         });
 
         if (sceneTo3) {
-*/
+
             StackPane root = new StackPane();
             Canvas canvas = new Canvas(width, height);
             graphicsContext = canvas.getGraphicsContext2D();
@@ -114,9 +114,9 @@ public class LibraryMain extends Application {
             primaryStage.setScene(scene3);
             primaryStage.show();
             reset();
-/*
+
         }
-*/
+
         //(new Thread(snakeLoop)).start();
 
 
@@ -127,10 +127,10 @@ public class LibraryMain extends Application {
     }
 
     private void reset() {
-        snakeCoordinate = new SnakeCoordinate(width, height);
+        /*snakeCoordinate = new SnakeCoordinate(width, height);
         snakeGrid = new SnakeGrid(width, height);
         snakeBody = new SnakeBody(snakeGrid, snakeCoordinate);
         snakeLoop = new SnakeLoop(snakeGrid, graphicsContext);
-        SnakeDraw.draw(snakeGrid, graphicsContext);
+        SnakeDraw.draw(snakeGrid, graphicsContext);*/
     }
 }
